@@ -1,0 +1,352 @@
+
+
+h1{
+    text-align: center;
+    color: aliceblue;
+   padding-top: 140px;
+}
+.navbar-nav {
+    margin-left: auto;
+}
+.intro {
+  position: relative; /* Ensures the overlay is positioned correctly */
+  display: flex;
+  width: 100%;
+  background-image: url('Snapchat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.intro::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(5, 0, 0, 0.4); /* Blue overlay with 40% transparency */
+  z-index: 1; /* Ensures overlay is above the background */
+}
+
+
+.intro .textcolumn{
+    flex: 2;
+    padding: 10%;
+    text-align: center;
+    height: 400PX;
+
+}
+.intro .imgcolumn{
+    flex: 1;
+
+   height: 400PX;
+}
+.intro .imgcolumn .intimg{
+  height: 400px;
+  width: 60%;
+  border-radius: 50%;
+}
+
+
+h2,h3,h4,p{
+    color: rgb(5, 5, 5);
+}
+
+.about-me {
+  position: relative; /* Ensures the overlay stays within .about-me */
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  height: 115vh;
+  background-image: url('tt.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-me::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 8, 8, 0.4); /* Blue overlay with 40% transparency */
+  z-index: 1; /* Ensures the overlay is above the background */
+}
+
+  .image-item {
+    flex: 1;
+    text-align: center;
+    padding-top: 100px;
+  }
+  .image-item p{
+    color: black;
+  }
+  .image-item img {
+    width: 60%;
+    height: 50%;
+    border-radius: 8px;
+  }
+  
+  .image-item p {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #080808 !important;
+  }
+  .therow{
+    display: flex;
+    height: 100%;
+    gap: 20px;
+    width: 100%;
+    
+
+  }
+ .therow .column1{
+    flex: 1;
+height: auto;
+text-align: center;
+
+  }
+  .therow .column1{
+    flex: 1;
+    height: auto;
+    text-align: center;
+    
+  }
+  .h22{
+    padding-top: 60px;
+    color: black;
+  }
+  
+  
+.all{
+  display: flex;
+  width: 100%;
+  height: 300px;
+  justify-content: space-between;
+ padding-top: 50px;
+}
+.educolumn{
+  flex: 1;
+  height: 200px;
+  padding-left: 110px;
+}
+.skillcolumn{
+  flex: 1;
+  height: 200px;
+  
+}
+.Myresume {
+  position: relative;
+  background-image: url('gg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+}
+
+.Myresume::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(8, 0, 0, 0.4); /* Blue overlay with transparency */
+}
+
+ol{
+  color: rgb(8, 8, 8);
+  font-size: 100%;
+}
+.resimg{
+  height: 200px;
+  width:70% ;
+}
+
+.project {
+  position: relative; /* Ensure overlay positions correctly */
+  height: 100vh;
+  width: 100%;
+  background-image: url('ee.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.project::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(65, 65, 66, 0.4); /* Adjust transparency (0.4 = 40%) */
+  z-index: 1; /* Ensure it overlays correctly */
+}
+
+.text{
+  height: 100px;
+  width: 100%;
+ 
+  text-align: center;
+}
+.Thelist{
+  display: flex;
+  height:400px ;
+  width: 100%;
+  
+
+}
+.procolumn1{
+  flex: 1;
+  height: 400px;
+  padding-left: 70px;
+ 
+}
+.procolumn2{
+  flex: 1;
+  height: 400px;
+  padding-left: 50px;
+}
+.projectimage{
+  height: 250px;
+  width: 90%;
+border-radius: 15px;
+background-color: transparent !important;
+  box-shadow: none;
+
+}
+
+
+.dis{
+  padding-left: 100px;
+}
+h4{
+  padding-left: 20px;
+}
+
+
+.contact {
+  position: relative; /* Ensures the overlay positions correctly */
+  display: flex;
+  height: 100vh;
+  background-image: url('smt.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(75, 75, 77, 0.4); /* Blue overlay with 40% transparency */
+  z-index: 1; /* Ensures overlay is on top */
+}
+
+.contactcolumn1{
+  flex: 1;
+  justify-content: center;
+}
+.contactcolumn2{
+  flex: 1;
+}
+.contactcolumn2 .columndiv p{
+  color: aliceblue !important;
+}
+.contactcolumn2 .columndiv .a{
+  justify-content: space-between;
+}
+h5{
+  text-align: left;
+  color: aliceblue;
+  font-size: 100%;
+
+}
+
+footer {
+  position: fixed; /* Keeps it visible while scrolling */
+  bottom: 0; /* Sticks it to the bottom */
+  width: 100%; /* Full width */
+  height: 40px; /* Adjust height */
+  background-color: rgba(0, 0, 0, 0.3); /* Semi-transparent (Adjust as needed) */
+  backdrop-filter: blur(5px); /* Optional: Adds a blur effect */
+  color: white; /* Ensures text is visible */
+  text-align: center;
+  z-index: 1000; /* Ensures it stays on top */
+}
+footer .f{
+  color: aliceblue !important;
+}
+
+.card{
+  background-color: #575e63  !important;
+  width: 70% !important;
+  height:30vh;
+ 
+  border: none !important;
+}
+.discription{
+  height: 100px;
+ 
+  width: 100%;
+  justify-content: center;
+}
+.resumeh2{
+  text-align: center;
+  color: rgb(8, 8, 8);
+  padding-top: 90px;
+  padding-right: 30px;
+}
+.cntctimg{
+  height: 500px;
+  width: 60%;
+}
+.Get{
+  text-align: left;
+  color: aliceblue;
+ padding-top: 100px;
+}
+
+i{
+  color: rgb(255, 254, 253);
+}
+.navbar {
+  background-color: transparent !important;
+  box-shadow: none; /* Remove any shadow */
+}
+.columndiv{
+  padding-left: 50%;
+}
+.card-body{
+  color: black;
+}
+.bi-instagram {
+  color: #E4405F; /* Instagram color */
+}
+
+.bi-envelope {
+  color: #D44638; /* Gmail color */
+}
+
+.bi-telephone {
+  color: #2a16dd; /* WhatsApp-like green (adjust if needed) */
+}
+
+a:hover .bi {
+  opacity: 0.8; /* Slight fade on hover */
+
+}
+.card:hover{
+  opacity: 0.9;
+}
+
